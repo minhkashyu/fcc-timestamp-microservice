@@ -7,11 +7,11 @@ You can run it at https://mks-timestamp-api.herokuapp.com/
 
 * Expressjs:
 
-  `npm install --save express`
+  `npm install express --save`
 
 * Momentjs:
 
-  `npm install --save moment`
+  `npm install moment --save`
 
 ##Usage
 
