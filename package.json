@@ -1,14 +1,15 @@
 {
   "name": "timestamp",
   "version": "1.0.0",
-  "description": "Camper API Timestamp",
-  "main": "index.js",
+  "description": "API Timestamp Microservice. Free Code Camp Project",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "minhkashyu",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "moment": "^2.17.1"
   }
 }
