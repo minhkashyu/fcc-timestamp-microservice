@@ -4,6 +4,10 @@ var moment = require('moment');
 
 var port = process.env.PORT || 8080;
 
+app.get('/', function (req, res) {
+    res.render('index.html');
+});
+
 app.get('/:timestamp', function (req, res) {
     var dtString;
     var timestamp = req.params.timestamp;
