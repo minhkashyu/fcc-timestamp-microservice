@@ -1,0 +1,18 @@
+/****** Main Styling ******/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #222;
+	background-color: #FaFaFa;
+	text-align: center;
+	line-height: 1.4em;
+}
+
+.text-multi-color {
+	background-image: linear-gradient(to left, violet, indigo, green, blue, orange, red);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}

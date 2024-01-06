@@ -1,38 +1,13 @@
-# Timestamp Microservice API
+# Timestamp Microservice
 
-Timestamp Api repository.  
-You can run it at https://mks-timestamp-api.herokuapp.com/
+The solution link is [https://mks-fcc-timestamp-microservice.glitch.me](https://mks-fcc-timestamp-microservice.glitch.me).
 
-## Requirements
+## Example Usage:
 
-* Expressjs:
+[https://mks-fcc-timestamp-microservice.glitch.me/api/2015-12-25](https://mks-fcc-timestamp-microservice.glitch.me/api/2015-12-25)
 
-  `npm install express --save`
+[https://mks-fcc-timestamp-microservice.glitch.me/api/1451001600000](https://mks-fcc-timestamp-microservice.glitch.me/api/1451001600000)
 
-* Momentjs:
+## Example Output
 
-  `npm install moment --save`
-
-## User Stories
-
-* I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016).
-
-* If it does, it returns both the Unix timestamp and the natural language form of that date.
-
-* If it does not contain a date or Unix timestamp, it returns null for those properties.
-
-##Usage
-
-https://mks-timestamp-api.herokuapp.com/December%2015,%202015
-
-https://mks-timestamp-api.herokuapp.com/1450137600
-
-##Sample Output
-
-{
-
-  "unix": 1450137600,
-  
-  "natural": "December 15, 2015"
-  
-}
+`{"unix":1451001600000, "utc":"Fri, 25 Dec 2015 00:00:00 GMT"}`
